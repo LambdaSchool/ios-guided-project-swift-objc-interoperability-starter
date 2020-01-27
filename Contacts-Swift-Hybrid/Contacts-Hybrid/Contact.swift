@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+// @objc(LSIContact) // Rename our Swift class to an Obj-C class
 @objc class Contact: NSObject {
     
     @objc var name: String
