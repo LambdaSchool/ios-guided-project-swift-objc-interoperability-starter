@@ -29,7 +29,7 @@ class ContactsTableViewController: UITableViewController {
 	override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)
 		
-		cell.textLabel?.text = "HI"
+		cell.textLabel?.text = "Hi"
 		
 		return cell
 	}
