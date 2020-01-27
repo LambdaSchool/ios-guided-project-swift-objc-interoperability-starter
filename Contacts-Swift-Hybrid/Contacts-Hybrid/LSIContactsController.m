@@ -7,7 +7,20 @@
 //
 
 #import "LSIContactsController.h"
+#import "Contacts_Hybrid-Swift.h"
 
 @implementation LSIContactsController
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _contacts = @[
+        [[Contact alloc] initWithName:@"Sally" relationship:@"Boss"],
+        [[Contact alloc] initWithName:@"Michael" relationship:@"Intern"]
+        ];
+    }
+    return self;
+}
 
 @end
